@@ -1,0 +1,6 @@
+DirectoryIndex index.html
+Options ExecCGI
+<FilesMatch "(\.conf|\.pl|\.pm|\.so|\.bs|\.packlist|\.pod|\.java|\.class|\.sh)$">
+Order Deny,Allow
+deny from all
+</FilesMatch>
